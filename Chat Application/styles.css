@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.user-input, .message-input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.user-input input, .message-input input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.chat-display {
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
