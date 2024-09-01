@@ -15,12 +15,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 const firebaseContext = createContext();
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBkSdECw19uPkiVIVmRdt0QuPdM-olPQLA",
-  authDomain: "socialmedia-2ed6e.firebaseapp.com",
-  projectId: "socialmedia-2ed6e",
-  storageBucket: "socialmedia-2ed6e.appspot.com",
-  messagingSenderId: "780963640174",
-  appId: "1:780963640174:web:d967471d6093307719477f"
+  
 };
 
 export const useFirebase = () => useContext(firebaseContext);
